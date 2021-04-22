@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#header {
+  position: fixed;
+}
+
+#header-img {
+  position: fixed;
+  height: 50px;
+}
+#body-img {
+  width: 100%;
+  display: block;
+}
+
+#review-vid {
+  display: flex;
+}
+
+
+/* The navbar */
+.topnav {
+  position: fixed;
+  right: 1rem;
+}
+
+/* Navbar links */
+.topnav a {
+  float: right;
+  color: black;
+  padding: 0.2rem 0.5rem;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.section {
+  display: block;
+  /* text-align: center; */
+  justify-content: center;
+  padding: 10vh 0;
+  min-height: 30vh;
+}
+
+header {
+  font-size: 4rem;
+}
+
+.section-header {
+  /* display: block; */
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+  padding: 10vh 0;
+}
+
+.section-subheader {
+  display: block;
+  font-size: 2rem;
+  text-align: center;
+  /* padding-bottom: 100px; */
+}
+
+#testimonies {
+  display: flex;
+}
+
+.testimony {
+  width: 100%;
+  padding: 0 2vh;
+}
+
+.buyoption {
+  width: 100%;
+  /* padding: 1vh 2vh; */
+  text-align: center;
+}
+
+.pricetag {
+  position: absolute;
+  bottom: 5px;
+}
+
+.signature {
+  float: right;
+  padding: 1.8rem;
+}
+
+#features-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.features-col {
+  width: 100%;
+  padding: 10vh;
+}
+
+#features-header {
+  display: flex;
+  font-size: 3rem;
+}
+
+#reviews {
+  display: block;
+  width: 100%;
+}
+
+#buy {
+  display: block;
+  width: 100%;
+}
+
+#video-header {
+  padding-right: 10vh;
+  text-align: left;
+}
+
+.product_img {
+  width:60%;
+}
+
+#options {
+  display: flex;
+  width: 100%
+}
+
+.buy-option {
+  position:relative;
+  text-align: center;
+  justify-content: center;
+  /* border: 3px solid black; */
+  width: 100%;
+  height: 50vh;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Position the navbar container inside the image */
+
+.container {
+  position: absolute;
+  margin: 1.2rem;
+  width: auto;
+}
+
+.buybutton {
+  position: absolute;
+  bottom:   0;
+  right: 10px;
+  width: 20%;
+  font-size: 1em;
+  background: #FF0000;
+  color: #fff;
+  border: 0.25rem solid white;
+}
+
+button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#form tr {
+  display: block;
+  margin: auto;
+  padding: 1rem;
+  width: 50vw;
+}
+
+.flabel {
+  position: absolute;
+  right: 60vw;
+  float: left;
+}
+
+.finput {
+  position: absolute;
+  float: right;
+  width: 20vw;
+  right: 30vw;
+}
+
+td {
+  vertical-align: top;
+}
+
+#sendit {
+  display: inline-flex;
+  position: relative;
+  padding: 4em
+}
+
+footer {
+  padding-top: 5rem;
+}
+
+@media screen and (max-width: 850px) {
+  body {
+      font-size: 12px;
+  }
+  .topnav {
+      position: fixed;
+      left: 0rem;
+      min-width: 520px;
+      top: 4rem;
+  }
+}
